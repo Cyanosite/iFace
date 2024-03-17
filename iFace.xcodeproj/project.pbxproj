@@ -11,6 +11,10 @@
 		DD6C39032B97AF10006FB5B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C39022B97AF10006FB5B4 /* ContentView.swift */; };
 		DD6C39052B97AF12006FB5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6C39042B97AF12006FB5B4 /* Assets.xcassets */; };
 		DD6C39082B97AF12006FB5B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6C39072B97AF12006FB5B4 /* Preview Assets.xcassets */; };
+		DD9E7C282BA4EA200082F246 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E7C272BA4EA200082F246 /* Camera.swift */; };
+		DD9E7C2A2BA4F5970082F246 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E7C292BA4F5970082F246 /* CameraView.swift */; };
+		DDC7DEAF2BA5F4D500505A43 /* 90_7_accuracy.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = DDC7DEAE2BA5F4D400505A43 /* 90_7_accuracy.mlpackage */; };
+		DDC7DEB12BA621FC00505A43 /* ModelOutputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC7DEB02BA621FC00505A43 /* ModelOutputDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		DD6C39022B97AF10006FB5B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD6C39042B97AF12006FB5B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6C39072B97AF12006FB5B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD9E7C272BA4EA200082F246 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		DD9E7C292BA4F5970082F246 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		DDC7DEAE2BA5F4D400505A43 /* 90_7_accuracy.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = 90_7_accuracy.mlpackage; sourceTree = "<group>"; };
+		DDC7DEB02BA621FC00505A43 /* ModelOutputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOutputDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				DD6C39002B97AF10006FB5B4 /* iFaceApp.swift */,
 				DD6C39022B97AF10006FB5B4 /* ContentView.swift */,
+				DD9E7C292BA4F5970082F246 /* CameraView.swift */,
+				DD9E7C272BA4EA200082F246 /* Camera.swift */,
 				DD6C39042B97AF12006FB5B4 /* Assets.xcassets */,
+				DDC7DEAE2BA5F4D400505A43 /* 90_7_accuracy.mlpackage */,
 				DD6C39062B97AF12006FB5B4 /* Preview Content */,
+				DDC7DEB02BA621FC00505A43 /* ModelOutputDelegate.swift */,
 			);
 			path = iFace;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC7DEAF2BA5F4D500505A43 /* 90_7_accuracy.mlpackage in Sources */,
 				DD6C39032B97AF10006FB5B4 /* ContentView.swift in Sources */,
 				DD6C39012B97AF10006FB5B4 /* iFaceApp.swift in Sources */,
+				DDC7DEB12BA621FC00505A43 /* ModelOutputDelegate.swift in Sources */,
+				DD9E7C282BA4EA200082F246 /* Camera.swift in Sources */,
+				DD9E7C2A2BA4F5970082F246 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,8 @@
 				DEVELOPMENT_TEAM = NLJW43UC2F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iFace/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +322,8 @@
 				DEVELOPMENT_TEAM = NLJW43UC2F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iFace/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
