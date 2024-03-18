@@ -25,6 +25,7 @@
 		DD6C39072B97AF12006FB5B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD9E7C272BA4EA200082F246 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		DD9E7C292BA4F5970082F246 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		DDB743652BA7956D0088D999 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC7DEAE2BA5F4D400505A43 /* 90_7_accuracy.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = 90_7_accuracy.mlpackage; sourceTree = "<group>"; };
 		DDC7DEB02BA621FC00505A43 /* ModelOutputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOutputDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +60,7 @@
 		DD6C38FF2B97AF10006FB5B4 /* iFace */ = {
 			isa = PBXGroup;
 			children = (
+				DDB743652BA7956D0088D999 /* Info.plist */,
 				DD6C39002B97AF10006FB5B4 /* iFaceApp.swift */,
 				DD6C39022B97AF10006FB5B4 /* ContentView.swift */,
 				DD9E7C292BA4F5970082F246 /* CameraView.swift */,
